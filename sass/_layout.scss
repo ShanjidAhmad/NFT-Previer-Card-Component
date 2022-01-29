@@ -1,0 +1,46 @@
+
+.peragraph {
+    &__pera {
+        color: hsl(215, 51%, 70%);
+        font-size: 1.7rem;
+    }
+}
+
+.value-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+
+    .value {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__eth {
+        padding-right: .5rem;
+        }
+
+        &__span {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: hsl(178, 100%, 50%);
+        }
+    } 
+
+    .count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__clock {
+        padding-right: .5rem;
+        }
+
+        &__countdown {
+            font-size: 1.6rem;
+            color: hsl(215, 51%, 70%);
+        }
+    }
+}

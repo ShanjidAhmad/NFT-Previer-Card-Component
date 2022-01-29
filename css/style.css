@@ -1,0 +1,119 @@
+/**
+--Very--dark-blue-main: hsl(217, 54%, 11%);
+--Very--dark-blue-card: hsl(216, 50%, 16%);
+--Very--dark-blue-line: hsl(215, 32%, 27%);
+--color-White-main: hsl(0, 0%, 100%);
+--Soft-blue: hsl(215, 51%, 70%);
+--color--Cyan--dark: hsl(178, 100%, 50%);
+**/
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  background-color: #0d192b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #14253d;
+  padding: 2rem;
+  width: 34.5rem;
+  border-radius: 15px;
+  box-shadow: 0 1.5rem 2rem #0d192b; }
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30rem; }
+  .img__profile {
+    position: absolute;
+    width: 100%;
+    border-radius: 2rem;
+    position: relative; }
+  .img__bottom {
+    position: absolute;
+    background: #00fff7;
+    overflow: hidden;
+    padding: 12.5rem;
+    border-radius: 2rem;
+    opacity: 0;
+    cursor: pointer; }
+    .img__bottom:hover {
+      opacity: .6; }
+  .img__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 2rem 0; }
+    .img__link:hover {
+      color: #00fff7; }
+
+.creation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 0; }
+  .creation__img {
+    width: 3.8rem;
+    border: 0.2rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem; }
+  .creation__para {
+    font-size: 1.6rem;
+    color: #8bacda; }
+  .creation__link {
+    text-decoration: none;
+    color: white; }
+    .creation__link:hover {
+      color: #00fff7; }
+
+.peragraph__pera {
+  color: #8bacda;
+  font-size: 1.7rem; }
+
+.value-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #2f415b; }
+  .value-count .value {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .value-count .value__eth {
+      padding-right: .5rem; }
+    .value-count .value__span {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #00fff7; }
+  .value-count .count {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .value-count .count__clock {
+      padding-right: .5rem; }
+    .value-count .count__countdown {
+      font-size: 1.6rem;
+      color: #8bacda; }
